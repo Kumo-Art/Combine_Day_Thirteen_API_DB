@@ -2465,11 +2465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brand\\OneDrive\\Desktop\\CSA Combine\\Combine_Day_Thirteen_API_DB\\Combine_Day_Thirteen_API_DB.csproj",
+      "projectUniqueName": "C:\\Users\\brand\\OneDrive\\Desktop\\Repositories\\Combine_Day_Thirteen_API_DB\\Combine_Day_Thirteen_API_DB.csproj",
       "projectName": "Combine_Day_Thirteen_API_DB",
-      "projectPath": "C:\\Users\\brand\\OneDrive\\Desktop\\CSA Combine\\Combine_Day_Thirteen_API_DB\\Combine_Day_Thirteen_API_DB.csproj",
+      "projectPath": "C:\\Users\\brand\\OneDrive\\Desktop\\Repositories\\Combine_Day_Thirteen_API_DB\\Combine_Day_Thirteen_API_DB.csproj",
       "packagesPath": "C:\\Users\\brand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brand\\OneDrive\\Desktop\\CSA Combine\\Combine_Day_Thirteen_API_DB\\obj\\",
+      "outputPath": "C:\\Users\\brand\\OneDrive\\Desktop\\Repositories\\Combine_Day_Thirteen_API_DB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\brand\\AppData\\Roaming\\NuGet\\NuGet.Config"

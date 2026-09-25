@@ -16,5 +16,7 @@ namespace Combine_Day_Thirteen_API_DB.Data
 
          //This is the Students table, as far as our C# code is Concerned
         public DbSet<Student> Students {get;set;}
+
+        public DbSet<Staff> Staff {get;set;}
     }
 }

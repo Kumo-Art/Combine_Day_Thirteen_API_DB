@@ -2,6 +2,7 @@
 using Combine_Day_Thirteen_API_DB.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,44 +10,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Combine_Day_Thirteen_API_DB.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260925160727_base")]
+    partial class @base
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "10.0.12");
-
-            modelBuilder.Entity("Combine_Day_Thirteen_API_DB.Models.Staff", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int?>("Age")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Attendance")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("FullName")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<bool>("HasComputer")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<bool>("IsVaccinated")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Job")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Staff");
-                });
 
             modelBuilder.Entity("Combine_Day_Thirteen_API_DB.Models.Student", b =>
                 {
